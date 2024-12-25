@@ -32,3 +32,60 @@ go my node and click eye button
 
 Now stake your testnet CFLY tokens to earn rewards. wait for transaction confirmation. now click refresh button
 you can claim CFLY reward when claim button visible.
+
+
+
+
+### **متطلبات النظام:**
+- **المعالج (CPU):** ثنائي النواة أو أفضل.  
+- **الذاكرة (RAM):** على الأقل 2 جيجابايت.  
+- **التخزين (Storage):** على الأقل 10 جيجابايت مساحة حرة.  
+
+---
+
+### **ملاحظات هامة:**
+- تأكد من **استبدال** البيانات المطلوبة بعنوان محفظة Kadena الخاص بك والمفتاح السري (private key) الذي يمكنك توليده من الرابط:  
+  [https://kadena-community.github.io/kadena-tools/](https://kadena-community.github.io/kadena-tools/)  
+- قم **بنسخ احتياطي** للمفتاح السري الخاص بالعقدة لتجنب فقدانه.  
+- احصل على عنوان المحفظة الخاص بك باستخدام إضافة "eckoWALLET".  
+
+---
+
+### **خطوات إعداد العقدة على خادم Ubuntu:**
+1. قم بتنفيذ الأوامر التالية خطوة بخطوة:
+   ```bash
+   git clone https://github.com/cyberfly-io/cyberfly-node-docker.git
+   cd cyberfly-node-docker
+   git pull
+   sudo chmod +x start_node.sh
+   sudo ./start_node.sh (k:your_kadena_wallet_address) (secret id)
+   ```
+   - **ملاحظة:** استبدل `(k:your_kadena_wallet_address)` بعنوان محفظة Kadena الخاص بك.  
+   - استبدل `(secret id)` بالمفتاح السري الخاص بالعقدة.  
+   
+2.لا تنسى ازلة الاقواس عند ادخال العنوان والمفتاج السري
+
+---
+
+### **خطوة ربط المحفظة والمطالبة بالمكافآت:**
+1. قم بزيارة الرابط:  
+   **http://YOUR_IP_ADDRESS:31000**  
+   
+2. اربط عقدتك مع **eckoWALLET** (إضافة المتصفح).
+
+3. اضغط على خيار **Testnet Faucet**.
+
+4. قم بالمطالبة بـ **50,000 FLY** عبر الضغط على زر المطالبة (Claim).
+
+5. انتقل إلى صفحة **My Node**، واضغط على زر العين (Eye Button).
+
+6. قم باستثمار (Stake) رموز CFLY الخاصة بك لبدء كسب المكافآت:
+   - انتظر تأكيد العملية.
+   - بعد ذلك، اضغط على زر التحديث (Refresh).
+
+7. بمجرد أن يصبح زر المطالبة (Claim) مرئيًا، يمكنك المطالبة بمكافآت CFLY الخاصة بك.  
+
+---
+
+### **استمتع بالمكافآت!**
+باتباع هذه الخطوات، ستكون قد أعددت عقدتك بنجاح على شبكة Cyberfly التجريبية (Testnet)، وبدأت في تحقيق الأرباح من استثماراتك.
