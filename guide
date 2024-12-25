@@ -3,13 +3,17 @@ Memory: At least 2GB RAM
 Storage: At least 10GB of free space
 
 
-not :   replace with your kadena address and node private key generated from. https://kadena-community.github.io/kadena-tools/
+not :   replace with your kadena address and node private key generated from. 
+
+1- https://kadena-community.github.io/kadena-tools/
+
 make sure you backup the node private key.
+
 and get wallet adress from "eckoWALLET"
 
 
 
-1. Setup node on your ubuntu VPS:
+2- Setup node on your ubuntu VPS:
 git clone https://github.com/cyberfly-io/cyberfly-node-docker.git
 cd cyberfly-node-docker
 git pull
@@ -17,3 +21,10 @@ sudo chmod +x start_node.sh
 sudo ./start_node.sh (k:your_kadena_wallet_address) (secret id)
 
 clean () () if you want import wallet ana scret id 
+
+3-  visit http://YOUR_IP_ADDRESS:31000
+link the  eckoWALLET 
+and then 
+
+ click testnet faucet 
+claim 50000FLY 
